@@ -1,0 +1,109 @@
+
+.header_site{
+
+  padding-top: 5px;
+  max-height: 104px;
+  height: 104px;
+  border-bottom:2px dashed lightgrey;
+}
+.header_site>h2.text-center{
+  margin-top: 0;
+  display:inline !important;
+}
+.header_site>i{
+  display: inline !important;
+}
+.navbar-header>a{
+  padding-top: 20px;
+}
+.glyphicon.btn{
+  background: none;
+  font-size: 2em;
+  color: #D9EBF3;
+
+}
+.glyphicon.btn:hover{
+  background: none;
+  color: orange;
+
+}
+#grid1{
+  height: 350px;
+  background-image: url("https://fthmb.tqn.com/3-ecGg9dWS5_eIosP1brzCFRGhk=/600x400/filters:no_upscale()/superfood-breakfast-with-porridge--amaranth--various-fruits-and-pistachios-709139775-5a5ca7bc845b3400376104a7-5a734543ff1b7800373ae490.jpg");
+  background-size: cover;
+}
+.grid{
+  height: 350px;
+  border: 1px solid grey;
+
+}
+.ingrid{
+  height: 200px;
+  width: 100% ;
+  border: 1px solid grey;
+}
+
+#firstbox{
+  height: 680px;
+  width: auto;
+  border: 1px solid;
+
+}
+.grid-group{
+  padding: 30px;
+}
+
+.secondbox{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height:460px ;
+  width:auto;
+  
+}
+#thirdbox{
+  padding: 0 10px 8px 10px;
+  height:1000px ;
+  width:auto;
+
+}
+.blueback{
+  height: 55%;
+  border: 1px solid;
+  background-color: #F1FAFD;
+}
+#mailbox{
+  margin: 8px;
+  height: 90px;
+  padding:16px;
+  border: 1px solid grey;
+  background-color: #F1FAFD;
+  /* margin-top: 32px; */
+
+}
+#lastbox{
+  padding: 0 10px 32px 10px;
+  height: 4575px;
+  border: 1px solid grey;
+  background-color: #F1FAFD;
+}
+#footer{
+  height: 231px;
+  border: 1px solid grey;
+}
+.foodgrids{
+  padding: 8px;
+  height: 378px;
+  border: 1px solid grey;
+}
+.homegrids{
+  align-self: center;
+  padding: 8px;
+  height: 523px;
+  border: 1px solid grey;
+}
+.homegrids-small{
+  align-self: center;
+  padding: 8px;
+  height: 378px;
+  border: 1px solid grey;
+}
