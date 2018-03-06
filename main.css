@@ -1,10 +1,13 @@
 
 .header_site{
-
+  position: fixed;
+  background: white;
   padding-top: 5px;
   max-height: 104px;
   height: 104px;
+  width: 100%;
   border-bottom:2px dashed lightgrey;
+  z-index: 1000;
 }
 .header_site>h2.text-center{
   margin-top: 0;
@@ -27,38 +30,48 @@
   color: orange;
 
 }
+#big-grid{
+  position: absolute;
+  height:50px;
+  left: 10%;
+  width: 450px;
+  bottom: 50px;
+  background-color: white;
+}
 #grid1{
+  position: relative;
+  padding: 16px;
+  box-shadow: rgba(0,0,0,.117647) 0 1px 6px,rgba(0,0,0,.117647) 0 1px 4px;
   height: 350px;
-  background-image: url("https://fthmb.tqn.com/3-ecGg9dWS5_eIosP1brzCFRGhk=/600x400/filters:no_upscale()/superfood-breakfast-with-porridge--amaranth--various-fruits-and-pistachios-709139775-5a5ca7bc845b3400376104a7-5a734543ff1b7800373ae490.jpg");
+  background-image:url("https://fthmb.tqn.com/3-ecGg9dWS5_eIosP1brzCFRGhk=/600x400/filters:no_upscale()/superfood-breakfast-with-porridge--amaranth--various-fruits-and-pistachios-709139775-5a5ca7bc845b3400376104a7-5a734543ff1b7800373ae490.jpg");
   background-size: cover;
 }
 .grid{
+  /* padding: 16px; */
   height: 350px;
-  border: 1px solid grey;
+  /* box-shadow: rgba(0,0,0,.117647) 0 1px 6px,rgba(0,0,0,.117647) 0 1px 4px; */
 
 }
 .ingrid{
   height: 200px;
   width: 100% ;
-  border: 1px solid grey;
+
 }
 
 #firstbox{
+  margin-top: 130px;
   height: 680px;
-  width: auto;
-  border: 1px solid;
+  width: 100%;
+  background: linear-gradient(to bottom,#FFF 3rem,#F1FAFD 3rem);
+}
 
-}
-.grid-group{
-  padding: 30px;
-}
 
 .secondbox{
   padding-top: 10px;
   padding-bottom: 10px;
   height:460px ;
   width:auto;
-  
+
 }
 #thirdbox{
   padding: 0 10px 8px 10px;
@@ -69,41 +82,49 @@
 .blueback{
   height: 55%;
   border: 1px solid;
-  background-color: #F1FAFD;
+
 }
 #mailbox{
   margin: 8px;
   height: 90px;
   padding:16px;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   background-color: #F1FAFD;
-  /* margin-top: 32px; */
 
 }
 #lastbox{
   padding: 0 10px 32px 10px;
   height: 4575px;
-  border: 1px solid grey;
-  background-color: #F1FAFD;
+  background: linear-gradient(to bottom,#FFF 3rem,#F1FAFD 3rem) !important;
 }
 #footer{
   height: 231px;
-  border: 1px solid grey;
 }
 .foodgrids{
   padding: 8px;
   height: 378px;
-  border: 1px solid grey;
+  box-sizing: border-box;
+  box-shadow: rgba(0,0,0,.117647) 0 1px 6px,rgba(0,0,0,.117647) 0 1px 4px;
 }
 .homegrids{
   align-self: center;
   padding: 8px;
   height: 523px;
-  border: 1px solid grey;
+  box-sizing: border-box;
+  box-shadow: rgba(0,0,0,.117647) 0 1px 6px,rgba(0,0,0,.117647) 0 1px 4px;
 }
-.homegrids-small{
-  align-self: center;
-  padding: 8px;
-  height: 378px;
-  border: 1px solid grey;
+
+#mozeralla{
+  background-image: url("https://fthmb.tqn.com/S3GYVcK3MXLjnmZEHuy1Ui7e9aI=/600x400/filters:no_upscale()/friedmozarella2-5a99717e6bf0690036181ba0.png");
+  background-size: cover;
+  height: 200px;
+  max-height: 350px ;
+  width: 100%;
+}
+#curtains{
+  background-image: url("https://fthmb.tqn.com/sP2KDI4OP53n9v4a8562czh73JA=/600x400/filters:no_upscale()/6-5a7de98fae9ab80036cc574d-5a9971c70e23d900372910f5.jpeg");
+  background-size: cover;
+  height: 200px;
+  max-height: 350px ;
+  width: 100%
 }
